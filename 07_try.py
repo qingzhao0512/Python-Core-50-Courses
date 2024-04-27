@@ -64,3 +64,10 @@ while money > 0:                          # 只要money > 0, 游戏就继续
         else:
             go_on = True
 print('你破产了, 游戏结束!')
+
+
+
+
+import os
+
+print(os.cpu_count())
